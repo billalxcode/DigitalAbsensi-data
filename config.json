@@ -1,0 +1,39 @@
+{
+    "max_counter": 100,
+    "max_counter_splash": 100,
+    "camera": {
+        "camera_id": 1,
+        "autodetect": false,
+        "max_camera_id": 10
+    },
+    "extension": {
+        "enablePolygon": false,
+        "fullscreen": true
+    },
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "",
+        "database": "netuzaabsen",
+        "driver": "mysql"
+    },
+    "clock": {
+        "start": {
+            "hour": "12",
+            "minute": "57",
+            "second": "00"
+        },
+        "end": {
+            "hour": "11",
+            "minute": "00",
+            "second": "00"
+        }
+    },
+    "logging": {
+        "enable": true,
+        "filename": "client.log",
+        "filemode": "a"
+    },
+    "copyright": "Q29weXJpZ2h0IChjKSAyMDIxIEJpbGxhbCBGYXV6YW4sIEFsbCBSaWdodCBSZXZlcnNlZC4="
+}
